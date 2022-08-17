@@ -1,0 +1,42 @@
+.main__page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.main__page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 100vh;
+    align-items: center;
+
+    &-title {
+        font-size: 38px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    &-link {
+        font-size: 24px;
+        color: inherit;
+        transition: .3s all;
+        -webkit-transition: .3s all;
+        -moz-transition: .3s all;
+        -ms-transition: .3s all;
+        -o-transition: .3s all;
+
+        &:hover {
+            color: teal;
+            transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            -o-transform: scale(1.05);
+        }
+    }
+}

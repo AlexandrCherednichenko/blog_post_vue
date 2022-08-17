@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &__title{
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .add__post {
+        margin-left: auto;
+    }
+}

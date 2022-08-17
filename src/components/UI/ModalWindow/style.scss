@@ -1,0 +1,23 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: rgba($color: #000000, $alpha: .3);
+
+    &__content {
+        max-height: 60vh;
+        height: auto;
+        min-width: 300px;
+        background-color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        padding: 20px;
+        margin: auto;
+    }
+}
